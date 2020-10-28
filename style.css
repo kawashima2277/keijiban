@@ -1,0 +1,157 @@
+
+header img {
+    width: 400px;
+    height: auto;
+}
+
+header ul {
+    height: 35px;
+    float: left;
+    width: 96%;
+    background-color: black;
+	color: white;
+	font-size: 13px;
+}
+
+
+header ul li {
+    float: left;
+    list-style: none;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+}
+
+main {
+    clear: both;
+}
+
+.main_container {
+    width: 96%;
+	margin: 0 auto;
+	margin-top: 70px;
+	}
+
+.left {
+    float: left;
+    width:65%;
+    margin-top: 5px;
+    margin-bottom:40px; 
+}
+
+.left h1 {
+    font-size: 21px;
+    margin: 4.5px 1px 0px 0px;
+    padding-left: 5px;
+    border-left: 3px solid black;
+    border-bottom: 1px solid black; 
+}
+
+.left h2 {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 5px;
+    border-left: 5px solid red;
+}
+
+p{
+    font-size: 16px;
+}
+
+body{font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+
+form{
+    margin-top: 15px;
+    background-color: #fafafa;
+    border: 2px #DFDFDF solid;
+    width: 100%;
+}
+
+form div{
+    padding:15px;
+}
+
+.text, textarea, .dropdown{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+    
+.submit{
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: #808080;
+    border-radius: 5px;
+    border-bottom: solid 4px #505050;
+}
+
+
+
+.kiji {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 5px 10px;
+    margin-top: 15px;
+    margin-bottom: 5px; 
+    border: solid 2px #DFDFDF;  
+}
+
+.kiji h3 {
+    border-bottom: solid 2px #DFDFDF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.kiji .contents {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.kiji .handlename {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.article_title {
+    font-size: 14.5px;
+}
+
+.right {
+    float: left;
+    width:29%;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom:40px; 
+}
+
+.right h2 {
+    font-size: 20px;
+    margin-top: 5.1px;
+    border-bottom: 1px dashed black;
+}
+
+.right ul{
+    list-style-type: none;
+    margin-left: -25px;
+    line-height: 35px;
+}
+
+
+footer{
+    clear: left;
+    font-size: 13px;
+	margin-top: 10px;
+    margin-bottom: auto;
+    width: 100%;
+	height: 40px;
+    padding-top: 7px;
+    color: white;
+	background-color: black;
+	text-align: center;
+	line-height: 30px
+}
